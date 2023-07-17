@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/AlwaysOval",
+      "image": "images/social/twitter.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/rjachuthan",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/riturajachuthan/",
+      "image": "images/social/linkedin.svg"
+    }
+  ]
+}
