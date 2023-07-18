@@ -8,28 +8,7 @@
     <loc>/</loc>
     <lastmod>2023-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/lorem/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/language-perfect/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/writing/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/sanity-not-statistical/</loc>
-    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/destruction-of-words/</loc>
-    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/time/</loc>
-    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/controls-the-past/</loc>
+    <loc>/posts/why_am_i_blogging/</loc>
     <lastmod>2018-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/pages/about/</loc>
@@ -37,5 +16,7 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/pages/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>
