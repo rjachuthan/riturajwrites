@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Digital Garden</title>
-    <link>/posts/</link>
-    <description>Recent content in Blog on Digital Garden</description>
+    <title>Productivity on Digital Garden</title>
+    <link>/tags/productivity/</link>
+    <description>Recent content in Productivity on Digital Garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jul 2023 23:51:46 +0530</lastBuildDate><atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Art of Visibility - Lessons from &#39;Show Your Work!&#39;</title>
       <link>/posts/show_your_work/</link>
@@ -14,16 +14,6 @@
       
       <guid>/posts/show_your_work/</guid>
       <description>Let me get one thing straight - Austin Kleon&amp;rsquo;s &amp;lsquo;Show Your Work!&amp;rsquo; has been rattling around in my brain like a catchy pop song for months now. You know the type - it&amp;rsquo;s 3 AM, you&amp;rsquo;re trying to sleep, and all you can hear is &amp;lsquo;share your work, share your work.&amp;rsquo; It&amp;rsquo;s like a mantra, a chant, a nagging parent reminding you to clean your room. but instead of dirty laundry, it&amp;rsquo;s all about airing our your knowledge and learning for the world to see.</description>
-    </item>
-    
-    <item>
-      <title>Embracing the Journey - Unveiling My Digital Haven</title>
-      <link>/posts/why_am_i_blogging/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/why_am_i_blogging/</guid>
-      <description>Welcome to my digital haven, a place where technology, ideas, and a touch of personal musings intertwine. In this inaugural blog post, I want to share with you the inspiration behind this endeavor, the essence of the quote that sparked it all, and what you can expect from this virtual rendezvous.
-A Spark of Inspiration It all started with a glimpse of destiny hidden within the captivating embrace of a Hugo theme.</description>
     </item>
     
   </channel>
