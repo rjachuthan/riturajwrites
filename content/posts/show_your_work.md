@@ -4,6 +4,7 @@ date: 2023-07-19T23:51:46+05:30
 description: "Here I would like to explore Austin Kleon's influential book and how that book has motivated to start this blogging site. This article underscores the potential of work transparency and continuous learning."
 image: https://austinkleon.com/wp-content/uploads/2012/10/00-show-cover.jpg
 imageAltAttribute: "Show Your Work - Image taken from austinkleon.com"
+disableComments: false
 tags:
 - Book Review
 - Productivity
