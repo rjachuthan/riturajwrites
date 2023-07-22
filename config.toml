@@ -16,7 +16,7 @@ enableRobotsTXT = true
 
 [params]
   disableComments = false
-  google_analytics_id = ""
+  google_analytics_id = "G-0625PDYEQJ"
   twitter_handle = "@AlwaysOval"
   showAuthorOnHomepage = true
   showAuthorOnPosts = true
