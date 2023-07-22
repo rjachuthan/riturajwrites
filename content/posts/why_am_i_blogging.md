@@ -4,6 +4,7 @@ date: 2023-07-18
 description: "Embracing the Journey - Unveiling My Digital Haven"
 image: images/unsplash-sixteen-miles-out.jpg
 imageAltAttribute: Come have a sip of tea with me.
+disableComments: false
 tags:
 ---
 
