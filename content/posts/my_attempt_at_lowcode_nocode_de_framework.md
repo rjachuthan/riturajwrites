@@ -188,3 +188,39 @@ the bells and whistles.
 I know, I know, I could've started working on it in parallel. But here's a
 little secret: I don't know how to create a GUI with drag and drop
 functionalities.
+
+### A One-Stop-Shop for Data Reading, Transformation, and Writing
+
+This framework is a toolbox, which has each and every tool which is designed to
+perform a specific task in a given data engineering process. That's exactly what
+I envisioned for my Low-Code/No-Code Data Engineering Framework.
+
+Data engineering, in its essence, is a series of tasks that can be broken down
+into smaller functions. Reading a single CSV file or multiple CSV files, reading
+Excel or Parquet files, fetching data from Microsoft SQL Server or Snowflake -
+these are all individual tasks. Then come the transformations - selecting
+columns, grouping by, ordering by, pivoting, unpivoting, filtering, adding or
+removing columns, and so on. Finally, we have the writing options - outputting
+the data as CSV, Parquet, Delta, or write to SQL. In my eyes, data engineering
+is just these steps happening in various permutations and combinations from a
+desired list.
+
+So, I placed each of these small units in a class, which is then called in the
+main pipeline. This approach has two main advantages:
+
+**1. Extensibility**: This is the biggest advantage. Let's say someone wants to
+add a new functionality. With this framework, it's as simple as adding a new
+class for that particular functionality. This modular approach makes the system
+highly adaptable and scalable. It's like playing with Lego blocks - you can keep
+adding, removing, or rearranging the blocks to create whatever structure you
+want. The same goes for our data engineering tasks. Need a new transformation
+function? Just create a new class. Need to read data from a new source? Add a
+class for that. The possibilities are endless.
+
+**2. Good Coding Practices and Unit Testing**: The second benefit is that the
+data engineer using this framework doesn't have to worry about good coding
+practices or unit testing - all of that is already taken care of in the
+framework. It's like having a safety net. The developers just have to focus on
+writing pipelines and defining validation steps. This significantly reduces the
+cognitive load on the developers and allows them to focus on what they do best -
+engineering data.
