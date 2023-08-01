@@ -40,7 +40,7 @@ learned and every setback, a stepping stone towards progress.
 
 # Why Low-Code/No-Code Data Engineering?
 
-## Why is the Industry Moving Towards Low-Code/No-Code Approach for Data Engineering?
+## Why is the Companies are Moving Towards Low-Code/No-Code Approach for Data Engineering?
 
 Firstly, let's talk about the **Democratization of technology**. Both low-code
 and no-code solutions are built with the objective of empowering different kinds
@@ -116,19 +116,68 @@ So, these are my main pain points. It's a wild ride, but hey, who said data
 engineering was going to be a walk in the park? I would really like to have a
 Clean Code book just for Data Engineering/Data Science.
 
-# References
+## Desired Features from the Framework
+Imagine you're handed a magic wand that can transform complex data engineering tasks into a walk in the park. Sounds too good to be true, right? Well, that's exactly what I envisioned when I set out to create this Framework. Let's take a peek into the magic box of features I had in mind.
 
-Here are some articles that I found extremely helpful in my journey and I hope
-they will be for you too:
+### User-Friendly Interface and Configuration-Driven Design
 
-1. [The Future of Data Engineering is No-Code](https://www.datameer.com/blog/no-code-future-of-data-engineering/)
-2. [No-Code Data Engineering for Analysts](https://www.sprinkledata.com/)
-3. [No-code data engineering solutions](https://www.reddit.com/r/dataengineering/comments/nx65fa/nocode_data_engineering_solutions/)
-4. [Five Ways No-code Will Make Your Data Engineering Career Skyrocket](https://tdwi.org/articles/2022/08/17/diq-all-five-ways-no-code-will-make-your-data-engineering-career-skyrocket.aspx)
-5. [Data Engineering Career Path: To Code or to No-Code?](https://dataexpert.medium.com/data-engineering-career-path-to-code-or-to-no-code-1f09cd30552a)
+The first thing I wanted to conjure up with my magic wand was a user-friendly interface. I decided to start with the heart of the system - the code packages. The idea was to create a robust foundation first and then wrap it up with a pretty bow, aka the User Interface. The entire data engineering pipeline was to be defined as a configuration file. This file would be the master key, unlocking the source input file, defining its properties (CSV, Excel, Parquet, Delta format, you name it), and setting the parameters for reading the data.
 
-- IBM: [Low-Code vs. No-Code: What’s the Difference?](https://www.ibm.com/cloud/blog/low-code-vs-no-code)
-- Zapier: [Code vs. low-code vs. no-code: When to use each one](https://zapier.com/blog/low-code-vs-no-code/)
-- [Data Engineering Career Path: To Code or to No-Code?](https://dataexpert.medium.com/data-engineering-career-path-to-code-or-to-no-code-1f09cd30552a)
-	- The author notes that many companies view their Data Engineers as an extension of analytics, while others see them as an extension of Software Engineering.
-	- The author believes that the divide in the perception of Data Engineering roles has been caused by excellent data platform products from companies like DBT, Snowflake, DataDog, Palantir, and DataBricks. These tools empower SQL-specialists to handle tasks that were previously relegated to Software Engineers or Data Engineers.
+Once the source dataset was read as a PySpark Dataframe, the configuration file would guide the transformations, validations, and finally, the write command. Now, I know what you're thinking. This configuration file could potentially become as long as a Tolstoy novel. And you're right.
+
+I started off with JSON for the configuration file, but it soon started to resemble a plate of spaghetti with all the nested configs. So, I switched to YAML, which made the configuration file a bit more readalbe, if you would as me. Here's a sneak peek into one of the configuration files for a data pipeline.
+
+```yaml
+source:
+  dataset_name: Sample Dataset
+  read_path: <path to the file/folder location>
+  read_format: parquet
+  read_options:
+    inferSchema: true
+
+transformations:
+  - stage_name: SelectColumnTransformer
+    comment: Selecting only the required columns
+    args:
+      columns:
+      - Country
+      - State
+      - City
+      - Year
+      - Population
+
+  - stage_name: ColumnTransformer
+    comment: Correct the values in Country Column
+    args:
+      columns:
+      - column: Country
+        expr: "CASE WHEN County = 'India' THEN 'IND' ELSE Country END"
+      - column: Year
+        expr: "int(Year)"
+
+  - stage_name: GroupByTransformer
+    comment: Get Aggregated values
+    args:
+      group_by:
+       - Country
+       - State
+       - Year
+      aggregations:
+        Min_Population:
+          column: Population
+          agg: min
+        Max_Population:
+          column: Population
+          agg: max
+        Total_Population:
+          column: Population
+          agg: sum
+
+write:
+  file_name: <File Name>
+  file_path: <Path to write>
+```
+
+Yes, I hear you. This is still a configuration file, and someone has to write these configurations down. But hey, Rome wasn't built in a day. This was just the first step. Once I was happy with the framework, the plan was to work on creating a user-friendly interface with all the bells and whistles.
+
+I know, I know, I could've started working on it in parallel. But here's a little secret: I don't know how to create a GUI with drag and drop functionalities.
