@@ -40,7 +40,7 @@ learned and every setback, a stepping stone towards progress.
 
 # Why Low-Code/No-Code Data Engineering?
 
-## Why is the Companies are Moving Towards Low-Code/No-Code Approach for Data Engineering?
+## Why are Companies Moving Towards a Low-Code/No-Code Approach for Data Engineering?
 
 Firstly, let's talk about the **Democratization of technology**. Both low-code
 and no-code solutions are built with the objective of empowering different kinds
@@ -66,8 +66,8 @@ efficiency** it offers. As
 [Zapier](https://zapier.com/blog/low-code-vs-no-code/) points out, no-code
 development is the fastest way to build and create solutions. It's also the most
 cost-effective and easiest to maintain over time. Using this framework which we
-have built, one of our junior developer has really outpaced his development
-times. He has been delivering pipelines at a phenomenal speed.
+have built, one of our junior developer has significantly improved his
+development speed. He has been delivering pipelines at a phenomenal speed.
 
 ### My Reasons for Moving to Low-Code/No-Code Setup
 
@@ -124,15 +124,31 @@ engineering was going to be a walk in the park? I would really like to have a
 Clean Code book just for Data Engineering/Data Science.
 
 ## Desired Features from the Framework
-Imagine you're handed a magic wand that can transform complex data engineering tasks into a walk in the park. Sounds too good to be true, right? Well, that's exactly what I envisioned when I set out to create this Framework. Let's take a peek into the magic box of features I had in mind.
+
+Imagine you're handed a magic wand that can transform complex data engineering
+tasks into a walk in the park. Sounds too good to be true, right? Well, that's
+exactly what I envisioned when I set out to create this Framework. Let's take a
+peek into the magic box of features I had in mind.
 
 ### User-Friendly Interface and Configuration-Driven Design
 
-The first thing I wanted to conjure up with my magic wand was a user-friendly interface. I decided to start with the heart of the system - the code packages. The idea was to create a robust foundation first and then wrap it up with a pretty bow, aka the User Interface. The entire data engineering pipeline was to be defined as a configuration file. This file would be the master key, unlocking the source input file, defining its properties (CSV, Excel, Parquet, Delta format, you name it), and setting the parameters for reading the data.
+The first thing I wanted to conjure up with my magic wand was a user-friendly
+interface. I decided to start with the heart of the system - the code packages.
+The idea was to create a robust foundation first and then wrap it up with a
+pretty bow, aka the User Interface. The entire data engineering pipeline was to
+be defined as a configuration file. This file would be the master key, unlocking
+the source input file, defining its properties (CSV, Excel, Parquet, Delta
+format, you name it), and setting the parameters for reading the data.
 
-Once the source dataset was read as a PySpark Dataframe, the configuration file would guide the transformations, validations, and finally, the write command. Now, I know what you're thinking. This configuration file could potentially become as long as a Tolstoy novel. And you're right.
+Once the source dataset was read as a PySpark Dataframe, the configuration file
+would guide the transformations, validations, and finally, the write command.
+Now, I know what you're thinking. This configuration file could potentially
+become as long as a Tolstoy novel. And you're right.
 
-I started off with JSON for the configuration file, but it soon started to resemble a plate of spaghetti with all the nested configs. So, I switched to YAML, which made the configuration file a bit more readalbe, if you would as me. Here's a sneak peek into one of the configuration files for a data pipeline.
+I started off with JSON for the configuration file, but it soon started to
+resemble a plate of spaghetti with all the nested configs. So, I switched to
+YAML, which made the configuration file a bit more readalbe, if you would as me.
+Here's a sneak peek into one of the configuration files for a data pipeline.
 
 ```yaml
 source:
@@ -236,8 +252,7 @@ engineering data.
 
 As we turn the page on this chapter, I'm thrilled to share that our story of
 building the Low-Code/No-Code Data Engineering Framework isn't a tale of
-fiction. It's a reality, it's tangible, and it's ready to make its debut on the
-center stage.
+fiction. It's a reality, it's tangible, and it's ready to be put into action.
 
 But don't close the book just yet! We're merely at the end of a chapter, not the
 whole story. We've set the scene and introduced our characters. Now, it's time
@@ -249,6 +264,5 @@ and turns of our journey, the challenges we faced, and how we overcame them.
 We'll also share the reviews and feedback from the brave teams who've been using
 this framework, and how it has transformed their data engineering processes.
 
-So, keep your bookmark ready, sit back, and stay tuned for the next chapter. The
-magic of Low-Code/No-Code Data Engineering is just beginning to unfold. See you
-in the next article!
+So, keep your bookmark ready, sit back, and get ready for the next chapter. What
+are you most excited to learn about in our journey?
