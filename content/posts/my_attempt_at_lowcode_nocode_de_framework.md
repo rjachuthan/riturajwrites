@@ -178,6 +178,13 @@ write:
   file_path: <Path to write>
 ```
 
-Yes, I hear you. This is still a configuration file, and someone has to write these configurations down. But hey, Rome wasn't built in a day. This was just the first step. Once I was happy with the framework, the plan was to work on creating a user-friendly interface with all the bells and whistles.
+I don't know about you, but this is pretty in my eyes. It looks prettier in a
+proper Text Editor as well. And yes, I hear you. This is still a configuration
+file, and someone has to write these configurations down. But hey, Rome wasn't
+built in a day. This was just the first step. Once I was happy with the
+framework, the plan was to work on creating a user-friendly interface with all
+the bells and whistles.
 
-I know, I know, I could've started working on it in parallel. But here's a little secret: I don't know how to create a GUI with drag and drop functionalities.
+I know, I know, I could've started working on it in parallel. But here's a
+little secret: I don't know how to create a GUI with drag and drop
+functionalities.
