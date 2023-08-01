@@ -10,19 +10,20 @@ Let's dive into the world of Low-Code/No Code Data Engineering. But before we
 do, let's set the stage with a bit of context.
 
 Data engineering, in its traditional form, is a complex and intricate process.
-It involves the creation and maintenance of architectures, databases, and
-processing systems that deal with vast amounts of data. Data engineers are the
-architects of data. They build pipelines that transform and transport data into
-a format that can be used by data scientists. They are the ones who make sure
-that the data is clean, reliable, and prepped for analysis. But this process is
-often time-consuming and requires a high level of technical expertise.
+It involves creating and maintenaning architectures, databases, and
+processing systems that deal with vast amounts of data. Think of Data Engineers
+as the architects of data. They build pipelines that transform and transport
+data into a format that can be used by data scientists. They are the ones who
+make sure that the data is clean, reliable, and prepped for analysis. But this
+process is often time-consuming and requires a high level of technical
+expertise.
 
 Enter [Low-Code](https://www.wikiwand.com/en/Low-code_development_platform)
 [No-Code](https://www.wikiwand.com/en/No-code_development_platform) Data
 Engineering. I believe that this approach can simplify the process of data
 integration and processing. It allows individuals without a deep technical
 background to build and manage data pipelines. With a no-code platform, you can
-visually design your data workflows and automate the data pipeline without
+design your data workflows visually and automate the data pipeline without
 writing a single line of code. It's like having a magic wand that turns complex
 data tasks into a series of simple, intuitive steps.
 
