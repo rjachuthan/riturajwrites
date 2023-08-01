@@ -3,6 +3,9 @@ title: "My Attempt at Creating a Low-Code/No-Code Data Engineering Framework"
 date: 2023-07-30T17:01:43+05:30
 description: "Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovative approach has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn't without its challenges."
 image: images/markus-spiske-code-faded-unsplash.jpg
+tags:
+  - Data Engineering
+  - Databricks
 draft: true
 ---
 
