@@ -93,6 +93,13 @@ just fancy terms I'm throwing around; they're real [Anti-Design
 Patterns](https://en.wikipedia.org/wiki/Anti-pattern) that haunt our
 deliverables.
 
+<figure>
+  <img src="https://i.imgflip.com/7ufo3p.jpg" title="God Object">
+  <figcaption>
+  	<em><center>This is how a God Object works</center></em>
+  </figcaption>
+</figure>
+
 Now, let's talk about the wild west of **coding styles** in our company.
 Everyone's a cowboy, riding their own horse, following their own trail. It's
 like trying to understand an orchestra where every musician is playing a
