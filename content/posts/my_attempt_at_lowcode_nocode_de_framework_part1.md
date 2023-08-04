@@ -94,7 +94,7 @@ Patterns](https://en.wikipedia.org/wiki/Anti-pattern) that haunt our
 deliverables.
 
 <figure>
-  <img src="https://i.imgflip.com/7ufo3p.jpg" title="God Object">
+  <img src="https://i.imgflip.com/7ufo3p.jpg" title="God Object" alt="God Object Meme">
   <figcaption>
   	<em><center>This is how a God Object works</center></em>
   </figcaption>
