@@ -6,7 +6,6 @@ image: images/markus-spiske-code-faded-unsplash.jpg
 tags:
   - Data Engineering
   - Databricks
-draft: true
 ---
 
 Let's dive into the world of Low-Code/No Code Data Engineering. But before we
@@ -268,3 +267,53 @@ engineering processes or not!
 
 So, keep your bookmark ready, sit back, and get ready for the next chapter. What
 are you most excited to learn about in our journey?
+
+# References
+
+Here are some articles that I found extremely helpful in my journey and I hope
+they will be for you too:
+
+- [Low-Code or No-Code: What's the Difference](https://www.ibm.com/blog/low-code-vs-no-code/):
+This blog on IBM's blog provides a comprehensive comparison between low-code and
+no-code development platforms. It explains how both platforms aim to democratize
+technology and increase productivity by abstracting complex coding aspects, but
+they target different user groups and use cases, with low-code offering more
+customization and scalability for professional developers, while no-code
+provides a completely hands-off approach suitable for business users and
+straightforward applications.
+
+- [Code vs Low Code vs No Code: When to use each one](https://zapier.com/blog/low-code-vs-no-code/):
+This blog on Zapier's blog provides a detailed comparison of full-code,
+low-code, and no-code platforms, discussing their pros, cons, and ideal use
+cases. It emphasizes that while full-code allows for ultimate customization,
+low-code and no-code platforms offer faster, more cost-effective solutions that
+are easier to maintain and adapt, making them increasingly attractive for
+businesses looking to streamline development and processes.
+
+- [The Future of Data Engineering is No-Code](https://www.datameer.com/blog/no-code-future-of-data-engineering/):
+This article discusses how the rise of no-code tools is streamlining data
+engineering processes and driving down costs. It emphasizes that these tools not
+only enhance agility but also allow team members to participate more actively in
+development processes, thus breaking the data engineering logjam and fostering
+efficient and agile data engineering processes.
+
+- [No-code data engineering solutions](https://www.reddit.com/r/dataengineering/comments/nx65fa/nocode_data_engineering_solutions/):
+This is a lively discussion among data engineers about the pros and cons of
+no-code and low-code solutions for data engineering tasks. Participants share
+their experiences with a variety of tools, including SSIS, ADF, and Matillion,
+and discuss the benefits and limitations of no-code ETL solutions like Stitch.
+The thread also includes a healthy debate about the practicality and efficiency
+of these tools, with some users expressing skepticism about their long-term
+viability and others advocating for their potential to streamline data
+engineering processes and democratize data handling.
+
+- [Data Engineering Career Path: To Code or not to Code](https://dataexpert.medium.com/data-engineering-career-path-to-code-or-to-no-code-1f09cd30552a):
+This personal blog on Medium discusses the author's personal journey as a Senior
+Data Engineer and the varying perceptions of Data Engineering roles across
+different companies. The author notes that **many companies view their Data
+Engineers as an extension of analytics, while others see them as an extension of
+Software Engineering**. The author believes that the divide in the perception of
+Data Engineering roles has been caused by excellent data platform products from
+companies like DBT, Snowflake, DataDog, Palantir, and DataBricks. These tools
+empower SQL-specialists to handle tasks that were previously relegated to
+Software Engineers or Data Engineers.
