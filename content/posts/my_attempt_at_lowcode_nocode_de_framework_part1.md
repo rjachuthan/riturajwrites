@@ -38,9 +38,9 @@ all great endeavors, there were bumps along the road. I faced failures and there
 were times when I wanted to throw in the towel. But every failure was a lesson
 learned and every setback, a stepping stone towards progress.
 
-# Why Low-Code/No-Code Data Engineering?
+## Why Low-Code/No-Code Data Engineering?
 
-## Why are Companies Moving Towards a Low-Code/No-Code Approach for Data Engineering?
+### Why are Companies Moving Towards a Low-Code/No-Code Approach for Data Engineering?
 
 Firstly, let's talk about the **Democratization of technology**. Both low-code
 and no-code solutions are built with the objective of empowering different kinds
