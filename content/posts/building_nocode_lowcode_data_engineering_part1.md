@@ -1,7 +1,7 @@
 ---
-title: "My Attempt at Creating a Low-Code/No-Code Data Engineering Framework"
+title: "Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I"
 date: 2023-07-30T17:01:43+05:30
-description: "Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovative approach has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn't without its challenges."
+description: "Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovation in data engineering has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn't without its challenges."
 image: images/markus-spiske-code-faded-unsplash.jpg
 tags:
   - Data Engineering
@@ -10,33 +10,34 @@ draft: true
 ---
 
 Let's dive into the world of Low-Code/No Code Data Engineering. But before we
-do, let's set the stage with a bit of context.
+do, let's set the stage with a bit of context on the Data Engineering Process.
 
-Data engineering, in its traditional form, is a complex and intricate process.
-It involves creating and maintenaning architectures, databases, and
-processing systems that deal with vast amounts of data. Think of Data Engineers
-as the architects of data. They build pipelines that transform and transport
-data into a format that can be used by data scientists. They are the ones who
-make sure that the data is clean, reliable, and prepped for analysis. But this
-process is often time-consuming and requires a high level of technical
-expertise.
+Traditional data engineering is a complex and intricate process. It involves
+creating and maintaining architectures, databases, and processing systems that
+deal with vast amounts of data. Think of Data Engineers as the architects of
+data. They build pipelines that transform and transport data into a format that
+can be used by data scientists. They are the ones who ensure the data is clean,
+reliable, and prepped for analysis. But this process is often time-consuming and
+requires a high level of technical expertise, which hampers the Development
+Workflow.
 
 Enter [Low-Code](https://www.wikiwand.com/en/Low-code_development_platform)
-[No-Code](https://www.wikiwand.com/en/No-code_development_platform) Data
-Engineering. I believe that this approach can simplify the process of data
-integration and processing. It allows individuals without a deep technical
-background to build and manage data pipelines. With a no-code platform, you can
-design your data workflows visually and automate the data pipeline without
-writing a single line of code. It's like having a magic wand that turns complex
-data tasks into a series of simple, intuitive steps.
+[No-Code](https://www.wikiwand.com/en/No-code_development_platform), an
+innovation in Data Engineering. I believe that this approach can simplify the
+process of data integration and processing. It allows individuals without a deep
+technical background to build and manage data pipelines. With a no-code
+platform, you can design your data workflows visually and automate the data
+pipeline without writing a single line of code. It's like having a magic wand
+that turns complex data tasks into a series of simple, intuitive steps.
 
 Now, you might be wondering why I, a humble blogger, decided to embark on the
 journey of creating a No Code Data Engineering platform. Well, it's simple. I
 saw the challenges that traditional data engineering posed and I wanted to make
-a difference. I wanted to make data engineering accessible to all. But, as with
-all great endeavors, there were bumps along the road. I faced failures and there
-were times when I wanted to throw in the towel. But every failure was a lesson
-learned and every setback, a stepping stone towards progress.
+a difference. I wanted to democratize data engineering by making it accesible to
+all. But, as with all great endeavors, there were bumps along the road. I faced
+failures and there were times when I wanted to throw in the towel. But every
+failure was a lesson learned and every setback, a stepping stone towards
+progress.
 
 ## Why Low-Code/No-Code Data Engineering?
 
@@ -255,14 +256,15 @@ building the Low-Code/No-Code Data Engineering Framework isn't a tale of
 fiction. It's a reality, it's tangible, and it's ready to be put into action.
 
 But don't close the book just yet! We're merely at the end of a chapter, not the
-whole story. We've set the scene and introduced our characters. Now, it's time
-for the plot to thicken.
+whole story. We've set the scene for a new development workflow and introduced
+our characters. Now, it's time for the plot to thicken.
 
 In the next chapter (or rather, the next article), we'll delve deeper into the
 heart of the narrative. We'll explore the intricacies of the code, the twists
 and turns of our journey, the challenges we faced, and how we overcame them.
-We'll also share the reviews and feedback from the brave teams who've been using
-this framework, and how it has transformed their data engineering processes.
+We'll also share the reviews and feedback from the brave team members who've
+been using this framework, and see whether this has really democratized data
+engineering processes or not!
 
 So, keep your bookmark ready, sit back, and get ready for the next chapter. What
 are you most excited to learn about in our journey?
