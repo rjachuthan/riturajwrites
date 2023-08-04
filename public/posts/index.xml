@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I</title>
+      <link>/posts/building_nocode_lowcode_data_engineering_part1/</link>
+      <pubDate>Sun, 30 Jul 2023 17:01:43 +0530</pubDate>
+      
+      <guid>/posts/building_nocode_lowcode_data_engineering_part1/</guid>
+      <description>Let&amp;rsquo;s dive into the world of Low-Code/No Code Data Engineering. But before we do, let&amp;rsquo;s set the stage with a bit of context on the Data Engineering Process.
+Traditional data engineering is a complex and intricate process. It involves creating and maintaining architectures, databases, and processing systems that deal with vast amounts of data. Think of Data Engineers as the architects of data. They build pipelines that transform and transport data into a format that can be used by data scientists.</description>
+    </item>
+    
+    <item>
       <title>The Art of Visibility - Lessons from &#39;Show Your Work!&#39;</title>
       <link>/posts/show_your_work/</link>
       <pubDate>Wed, 19 Jul 2023 23:51:46 +0530</pubDate>

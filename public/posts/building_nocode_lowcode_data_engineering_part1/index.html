@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I - Digital Garden</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/building_nocode_lowcode_data_engineering_part1/" />
+    
+    
+    <link rel="stylesheet" href="/css/style.min.e46ba105c8bd1ff481b58b9987f38498645376af56431fdf38a7e501fe9d2447.css">
+    <link rel="stylesheet" href="/assets/css/extended.min.9729f28a5087b689b946e103d96abd63bfd37b1417effa251dbf798312e3fba5.css">
+
+  
+    <meta name="description" content="Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovation in data engineering has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn&#39;t without its challenges."/>
+    <meta property="og:title" content="Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/building_nocode_lowcode_data_engineering_part1/"/>
+    <meta property="og:image" content="/images/markus-spiske-code-faded-unsplash.jpg"/>
+    <meta property="og:description" content="Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovation in data engineering has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn&#39;t without its challenges."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@AlwaysOval"/>
+    <meta name="twitter:creator" content="@AlwaysOval"/>
+  
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+
+  
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/pages/about">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Garden</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/pages/about">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+      <div class="author">
+  <img width="30" class="author-image" src="/images/author.jpg" alt="Rituraj Achuthan" />
+  <span class="author-name">Rituraj Achuthan</span>
+  <span class="author-divider"></span>
+  <span class="author-date">July 30, 2023</span>
+</div>
+    
+    <div class="intro">
+      <h1>Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I<span class="dot">.</span></h1>
+      
+      <img alt="Fuzzy Code" src="/images/markus-spiske-code-faded-unsplash.jpg" />
+      
+    </div>
+    <div class="content">
+      <p>Let&rsquo;s dive into the world of Low-Code/No Code Data Engineering. But before we
+do, let&rsquo;s set the stage with a bit of context on the Data Engineering Process.</p>
+<p>Traditional data engineering is a complex and intricate process. It involves
+creating and maintaining architectures, databases, and processing systems that
+deal with vast amounts of data. Think of Data Engineers as the architects of
+data. They build pipelines that transform and transport data into a format that
+can be used by data scientists. They are the ones who ensure the data is clean,
+reliable, and prepped for analysis. But this process is often time-consuming and
+requires a high level of technical expertise, which hampers the Development
+Workflow.</p>
+<p>Enter <a href="https://www.wikiwand.com/en/Low-code_development_platform">Low-Code</a>
+<a href="https://www.wikiwand.com/en/No-code_development_platform">No-Code</a>, an
+innovation in Data Engineering. I believe that this approach can simplify the
+process of data integration and processing. It allows individuals without a deep
+technical background to build and manage data pipelines. With a no-code
+platform, you can design your data workflows visually and automate the data
+pipeline without writing a single line of code. It&rsquo;s like having a magic wand
+that turns complex data tasks into a series of simple, intuitive steps.</p>
+<p>Now, you might be wondering why I, a humble blogger, decided to embark on the
+journey of creating a No Code Data Engineering platform. Well, it&rsquo;s simple. I
+saw the challenges that traditional data engineering posed and I wanted to make
+a difference. I wanted to democratize data engineering by making it accesible to
+all. But, as with all great endeavors, there were bumps along the road. I faced
+failures and there were times when I wanted to throw in the towel. But every
+failure was a lesson learned and every setback, a stepping stone towards
+progress.</p>
+<h2 id="why-low-codeno-code-data-engineering">Why Low-Code/No-Code Data Engineering?</h2>
+<h3 id="why-are-companies-moving-towards-a-low-codeno-code-approach-for-data-engineering">Why are Companies Moving Towards a Low-Code/No-Code Approach for Data Engineering?</h3>
+<p>Firstly, let&rsquo;s talk about the <strong>Democratization of technology</strong>. Both low-code
+and no-code solutions are built with the objective of empowering different kinds
+of users. As <a href="https://www.ibm.com/cloud/blog/low-code-vs-no-code">IBM</a> puts it,
+these platforms are designed to make technology accessible to a wider audience,
+not just those with extensive coding skills. The importance of democratizing
+technology lies in its potential to foster widespread innovation, creativity,
+and problem-solving capabilities. By breaking down the barriers of technical
+complexity, these platforms enable a more diverse pool of minds to engage in
+technological exploration. A Javascript Developer, a newbie IT Analyst, and
+individuals with non-technical backgrounds can now actively contribute to the
+development of innovative solutions without the need for extensive coding
+knowledge. This democratization nurtures a culture of collaboration and
+inclusivity, where ideas from various perspectives converge, leading to the
+emergence of novel applications and cutting-edge advancements. This shift is
+breaking down barriers between technical and non-technical personnel. I&rsquo;ve
+always held the belief that a product cannot truly succeed unless business users
+take an active interest in their IT solutions. In the context of data
+engineering, this perspective becomes even more crucial.</p>
+<p>Another reason for choosing a low-code/no-code platform is the <strong>speed and
+efficiency</strong> it offers. As
+<a href="https://zapier.com/blog/low-code-vs-no-code/">Zapier</a> points out, no-code
+development is the fastest way to build and create solutions. It&rsquo;s also the most
+cost-effective and easiest to maintain over time. Using this framework which we
+have built, one of our junior developer has significantly improved his
+development speed. He has been delivering pipelines at a phenomenal speed.</p>
+<h3 id="my-reasons-for-moving-to-low-codeno-code-setup">My Reasons for Moving to Low-Code/No-Code Setup</h3>
+<p>Imagine you&rsquo;re part of a relay race. You&rsquo;re running at breakneck speed, passing
+the baton, and just when you think you&rsquo;re about to cross the finish line, you&rsquo;re
+told to run the race again, but this time, backwards. That&rsquo;s what it feels like
+working in our fast-paced environment. We&rsquo;re juggling data gathering,
+exploratory data analysis, machine learning model creation, and oh, did I
+mention, we&rsquo;re also expected to whip up a high-quality data pipeline in the same
+breath? No extensions. It&rsquo;s like being asked to bake a cake while simultaneously
+performing a ballet. And guess what? 80-90% of our time is spent on tasks that
+have nothing to do with data engineering.</p>
+<p>In the midst of this whirlwind, we often find ourselves creating what I like to
+call the &lsquo;Frankenstein&rsquo;s Monster&rsquo; of code. It&rsquo;s either a &lsquo;<a href="https://en.wikipedia.org/wiki/God_object">God
+Object</a>&rsquo;, a class that&rsquo;s bitten off
+more than it can chew, a &lsquo;<a href="https://en.wikipedia.org/wiki/Spaghetti_code">Spaghetti
+Code</a>&rsquo;, a tangled mess that&rsquo;s as
+flexible as a brick, or a big &lsquo;<a href="https://de.wikipedia.org/wiki/Big_Ball_of_Mud">Ball of
+Mud</a>&rsquo;, a code so convoluted that
+even Sherlock Holmes would have a hard time deciphering it. And these aren&rsquo;t
+just fancy terms I&rsquo;m throwing around; they&rsquo;re real <a href="https://en.wikipedia.org/wiki/Anti-pattern">Anti-Design
+Patterns</a> that haunt our
+deliverables.</p>
+<figure>
+  <img src="https://i.imgflip.com/7ufo3p.jpg" title="God Object" alt="God Object Meme">
+  <figcaption>
+  	<em><center>This is how a God Object works</center></em>
+  </figcaption>
+</figure>
+<p>Now, let&rsquo;s talk about the wild west of <strong>coding styles</strong> in our company.
+Everyone&rsquo;s a cowboy, riding their own horse, following their own trail. It&rsquo;s
+like trying to understand an orchestra where every musician is playing a
+different tune. It&rsquo;s a nightmare for our Lead Engineers and Architects who have
+to review these &lsquo;masterpieces&rsquo;.</p>
+<p>And then there&rsquo;s the issue of <strong>standardization</strong>, or rather, the lack of it.
+It&rsquo;s like everyone&rsquo;s cooking their own version of a classic recipe. Take &lsquo;<a href="https://analyticsstudent.wordpress.com/2012/10/31/baseline-sales-for-marketing-mix-modeling/">Base
+Price</a>&rsquo;
+in Media/Marketing Mix Modeling, for example. You&rsquo;d think it&rsquo;s a standard
+calculation, right? Wrong. Every team has their own secret sauce, which works
+great for their dish but falls flat in others.</p>
+<p>Lastly, let&rsquo;s not forget the elephant in the room - <strong>good coding practices</strong>.
+Or in our case, the lack thereof. It&rsquo;s like everyone&rsquo;s so busy juggling, they&rsquo;ve
+forgotten to check if the balls they&rsquo;re juggling are even round. <strong>Unit
+testing</strong>? What&rsquo;s that? We&rsquo;re so caught up in writing functions for specific
+tasks that we&rsquo;ve forgotten to make them reusable, let alone testable.</p>
+<p>So, these are my main pain points. It&rsquo;s a wild ride, but hey, who said data
+engineering was going to be a walk in the park? I would really like to have a
+Clean Code book just for Data Engineering/Data Science.</p>
+<h2 id="desired-features-from-the-framework">Desired Features from the Framework</h2>
+<p>Imagine you&rsquo;re handed a magic wand that can transform complex data engineering
+tasks into a walk in the park. Sounds too good to be true, right? Well, that&rsquo;s
+exactly what I envisioned when I set out to create this Framework. Let&rsquo;s take a
+peek into the magic box of features I had in mind.</p>
+<h3 id="user-friendly-interface-and-configuration-driven-design">User-Friendly Interface and Configuration-Driven Design</h3>
+<p>The first thing I wanted to conjure up with my magic wand was a user-friendly
+interface. I decided to start with the heart of the system - the code packages.
+The idea was to create a robust foundation first and then wrap it up with a
+pretty bow, aka the User Interface. The entire data engineering pipeline was to
+be defined as a configuration file. This file would be the master key, unlocking
+the source input file, defining its properties (CSV, Excel, Parquet, Delta
+format, you name it), and setting the parameters for reading the data.</p>
+<p>Once the source dataset was read as a PySpark Dataframe, the configuration file
+would guide the transformations, validations, and finally, the write command.
+Now, I know what you&rsquo;re thinking. This configuration file could potentially
+become as long as a Tolstoy novel. And you&rsquo;re right.</p>
+<p>I started off with JSON for the configuration file, but it soon started to
+resemble a plate of spaghetti with all the nested configs. So, I switched to
+YAML, which made the configuration file a bit more readalbe, if you would as me.
+Here&rsquo;s a sneak peek into one of the configuration files for a data pipeline.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">source</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">dataset_name</span><span class="p">:</span><span class="w"> </span><span class="l">Sample Dataset</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">read_path</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;path to the file/folder location&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">read_format</span><span class="p">:</span><span class="w"> </span><span class="l">parquet</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">read_options</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">inferSchema</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">transformations</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">stage_name</span><span class="p">:</span><span class="w"> </span><span class="l">SelectColumnTransformer</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">comment</span><span class="p">:</span><span class="w"> </span><span class="l">Selecting only the required columns</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">columns</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Country</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">State</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">City</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Year</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">Population</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">stage_name</span><span class="p">:</span><span class="w"> </span><span class="l">ColumnTransformer</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">comment</span><span class="p">:</span><span class="w"> </span><span class="l">Correct the values in Country Column</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">columns</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">column</span><span class="p">:</span><span class="w"> </span><span class="l">Country</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">expr</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;CASE WHEN County = &#39;India&#39; THEN &#39;IND&#39; ELSE Country END&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">column</span><span class="p">:</span><span class="w"> </span><span class="l">Year</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">expr</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;int(Year)&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">stage_name</span><span class="p">:</span><span class="w"> </span><span class="l">GroupByTransformer</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">comment</span><span class="p">:</span><span class="w"> </span><span class="l">Get Aggregated values</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">group_by</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span>- <span class="l">Country</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span>- <span class="l">State</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span>- <span class="l">Year</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">aggregations</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">Min_Population</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">column</span><span class="p">:</span><span class="w"> </span><span class="l">Population</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">agg</span><span class="p">:</span><span class="w"> </span><span class="l">min</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">Max_Population</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">column</span><span class="p">:</span><span class="w"> </span><span class="l">Population</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">agg</span><span class="p">:</span><span class="w"> </span><span class="l">max</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">Total_Population</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">column</span><span class="p">:</span><span class="w"> </span><span class="l">Population</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">agg</span><span class="p">:</span><span class="w"> </span><span class="l">sum</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">write</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">file_name</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;File Name&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">file_path</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;Path to write&gt;</span><span class="w">
+</span></span></span></code></pre></div><p>I don&rsquo;t know about you, but this is pretty in my eyes. It looks prettier in a
+proper Text Editor as well. And yes, I hear you. This is still a configuration
+file, and someone has to write these configurations down. But hey, Rome wasn&rsquo;t
+built in a day. This was just the first step. Once I was happy with the
+framework, the plan was to work on creating a user-friendly interface with all
+the bells and whistles.</p>
+<p>I know, I know, I could&rsquo;ve started working on it in parallel. But here&rsquo;s a
+little secret: I don&rsquo;t know how to create a GUI with drag and drop
+functionalities.</p>
+<h3 id="a-one-stop-shop-for-data-reading-transformation-and-writing">A One-Stop-Shop for Data Reading, Transformation, and Writing</h3>
+<p>This framework is a toolbox, which has each and every tool which is designed to
+perform a specific task in a given data engineering process. That&rsquo;s exactly what
+I envisioned for my Low-Code/No-Code Data Engineering Framework.</p>
+<p>Data engineering, in its essence, is a series of tasks that can be broken down
+into smaller functions. Reading a single CSV file or multiple CSV files, reading
+Excel or Parquet files, fetching data from Microsoft SQL Server or Snowflake -
+these are all individual tasks. Then come the transformations - selecting
+columns, grouping by, ordering by, pivoting, unpivoting, filtering, adding or
+removing columns, and so on. Finally, we have the writing options - outputting
+the data as CSV, Parquet, Delta, or write to SQL. In my eyes, data engineering
+is just these steps happening in various permutations and combinations from a
+desired list.</p>
+<p>So, I placed each of these small units in a class, which is then called in the
+main pipeline. This approach has two main advantages:</p>
+<p><strong>1. Extensibility</strong>: This is the biggest advantage. Let&rsquo;s say someone wants to
+add a new functionality. With this framework, it&rsquo;s as simple as adding a new
+class for that particular functionality. This modular approach makes the system
+highly adaptable and scalable. It&rsquo;s like playing with Lego blocks - you can keep
+adding, removing, or rearranging the blocks to create whatever structure you
+want. The same goes for our data engineering tasks. Need a new transformation
+function? Just create a new class. Need to read data from a new source? Add a
+class for that. The possibilities are endless.</p>
+<p><strong>2. Good Coding Practices and Unit Testing</strong>: The second benefit is that the
+data engineer using this framework doesn&rsquo;t have to worry about good coding
+practices or unit testing - all of that is already taken care of in the
+framework. It&rsquo;s like having a safety net. The developers just have to focus on
+writing pipelines and defining validation steps. This significantly reduces the
+cognitive load on the developers and allows them to focus on what they do best -
+engineering data.</p>
+<h1 id="stay-tuned-for-the-next-chapter">Stay Tuned for the Next Chapter</h1>
+<p>As we turn the page on this chapter, I&rsquo;m thrilled to share that our story of
+building the Low-Code/No-Code Data Engineering Framework isn&rsquo;t a tale of
+fiction. It&rsquo;s a reality, it&rsquo;s tangible, and it&rsquo;s ready to be put into action.</p>
+<p>But don&rsquo;t close the book just yet! We&rsquo;re merely at the end of a chapter, not the
+whole story. We&rsquo;ve set the scene for a new development workflow and introduced
+our characters. Now, it&rsquo;s time for the plot to thicken.</p>
+<p>In the next chapter (or rather, the next article), we&rsquo;ll delve deeper into the
+heart of the narrative. We&rsquo;ll explore the intricacies of the code, the twists
+and turns of our journey, the challenges we faced, and how we overcame them.
+We&rsquo;ll also share the reviews and feedback from the brave team members who&rsquo;ve
+been using this framework, and see whether this has really democratized data
+engineering processes or not!</p>
+<p>So, keep your bookmark ready, sit back, and get ready for the next chapter. What
+are you most excited to learn about in our journey?</p>
+<h1 id="references">References</h1>
+<p>Here are some articles that I found extremely helpful in my journey and I hope
+they will be for you too:</p>
+<ul>
+<li>
+<p><a href="https://www.ibm.com/blog/low-code-vs-no-code/">Low-Code or No-Code: What&rsquo;s the Difference</a>:
+This blog on IBM&rsquo;s blog provides a comprehensive comparison between low-code and
+no-code development platforms. It explains how both platforms aim to democratize
+technology and increase productivity by abstracting complex coding aspects, but
+they target different user groups and use cases, with low-code offering more
+customization and scalability for professional developers, while no-code
+provides a completely hands-off approach suitable for business users and
+straightforward applications.</p>
+</li>
+<li>
+<p><a href="https://zapier.com/blog/low-code-vs-no-code/">Code vs Low Code vs No Code: When to use each one</a>:
+This blog on Zapier&rsquo;s blog provides a detailed comparison of full-code,
+low-code, and no-code platforms, discussing their pros, cons, and ideal use
+cases. It emphasizes that while full-code allows for ultimate customization,
+low-code and no-code platforms offer faster, more cost-effective solutions that
+are easier to maintain and adapt, making them increasingly attractive for
+businesses looking to streamline development and processes.</p>
+</li>
+<li>
+<p><a href="https://www.datameer.com/blog/no-code-future-of-data-engineering/">The Future of Data Engineering is No-Code</a>:
+This article discusses how the rise of no-code tools is streamlining data
+engineering processes and driving down costs. It emphasizes that these tools not
+only enhance agility but also allow team members to participate more actively in
+development processes, thus breaking the data engineering logjam and fostering
+efficient and agile data engineering processes.</p>
+</li>
+<li>
+<p><a href="https://www.reddit.com/r/dataengineering/comments/nx65fa/nocode_data_engineering_solutions/">No-code data engineering solutions</a>:
+This is a lively discussion among data engineers about the pros and cons of
+no-code and low-code solutions for data engineering tasks. Participants share
+their experiences with a variety of tools, including SSIS, ADF, and Matillion,
+and discuss the benefits and limitations of no-code ETL solutions like Stitch.
+The thread also includes a healthy debate about the practicality and efficiency
+of these tools, with some users expressing skepticism about their long-term
+viability and others advocating for their potential to streamline data
+engineering processes and democratize data handling.</p>
+</li>
+<li>
+<p><a href="https://dataexpert.medium.com/data-engineering-career-path-to-code-or-to-no-code-1f09cd30552a">Data Engineering Career Path: To Code or not to Code</a>:
+This personal blog on Medium discusses the author&rsquo;s personal journey as a Senior
+Data Engineer and the varying perceptions of Data Engineering roles across
+different companies. The author notes that <strong>many companies view their Data
+Engineers as an extension of analytics, while others see them as an extension of
+Software Engineering</strong>. The author believes that the divide in the perception of
+Data Engineering roles has been caused by excellent data platform products from
+companies like DBT, Snowflake, DataDog, Palantir, and DataBricks. These tools
+empower SQL-specialists to handle tasks that were previously relegated to
+Software Engineers or Data Engineers.</p>
+</li>
+</ul>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/AlwaysOval" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/rjachuthan" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/riturajachuthan/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  <script src="https://giscus.app/client.js"
+        data-repo="rjachuthan/riturajwrites"
+        data-repo-id="R_kgDOJ8jOHQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOJ8jOHc4CYAr2"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+</div>
+
+
+  </div>
+
+  
+
+  
+    <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-0625PDYEQJ"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0625PDYEQJ');
+      </script>
+    
+  
+
+  
+
+  
+
+</body>
+</html>
