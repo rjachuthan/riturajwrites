@@ -2,8 +2,8 @@
 title: "Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I"
 date: 2023-07-30T17:01:43+05:30
 description: "Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovation in data engineering has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn't without its challenges."
-image: images/markus-spiske-code-faded-unsplash.jpg
-imageAltAttribute: "Fuzzy Code"
+image: images/robot_working_with_pipeline.png
+imageAltAttribute: "Image created in Automatic 1111 using RevAnimated Checkpoint"
 disableComments: false
 tags:
   - Data Engineering
