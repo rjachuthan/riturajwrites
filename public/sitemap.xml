@@ -1,41 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/posts/building_nocode_lowcode_data_engineering_part1/</loc>
-    <lastmod>2023-07-30T17:01:43+05:30</lastmod>
-  </url><url>
-    <loc>/tags/data-engineering/</loc>
-    <lastmod>2023-07-30T17:01:43+05:30</lastmod>
-  </url><url>
-    <loc>/tags/databricks/</loc>
-    <lastmod>2023-07-30T17:01:43+05:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-07-30T17:01:43+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-07-30T17:01:43+05:30</lastmod>
-  </url><url>
-    <loc>/tags/book-review/</loc>
-    <lastmod>2023-07-19T23:51:46+05:30</lastmod>
-  </url><url>
-    <loc>/tags/productivity/</loc>
-    <lastmod>2023-07-19T23:51:46+05:30</lastmod>
-  </url><url>
-    <loc>/posts/show_your_work/</loc>
-    <lastmod>2023-07-19T23:51:46+05:30</lastmod>
-  </url><url>
-    <loc>/posts/why_am_i_blogging/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/pages/about/</loc>
-  </url><url>
-    <loc>/categories/</loc>
-  </url><url>
-    <loc>/pages/</loc>
-  </url>
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/posts/nocode_lowcode_part1/</loc>
+            <lastmod>2023-07-30T17:01:43+05:30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/</loc>
+            <lastmod>2023-07-30T17:01:43+05:30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/posts/show_your_work/</loc>
+            <lastmod>2023-07-19T23:51:46+05:30</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/posts/why_am_i_blogging/</loc>
+            <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/posts/</loc>
+            <lastmod>2023-07-16T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/pages/about/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://riturajwrites.xyz/pages/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
 </urlset>
