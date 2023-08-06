@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Databricks on Digital Garden</title>
-    <link>/tags/databricks/</link>
-    <description>Recent content in Databricks on Digital Garden</description>
+    <title>Databricks on Rituraj&#39;s Digital Garden</title>
+    <link>https://riturajwrites.xyz/tags/databricks/</link>
+    <description>Recent content in Databricks on Rituraj&#39;s Digital Garden</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2023 17:01:43 +0530</lastBuildDate><atom:link href="/tags/databricks/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Rituraj Achuthan</copyright>
+    <lastBuildDate>Sun, 30 Jul 2023 17:01:43 +0530</lastBuildDate><atom:link href="https://riturajwrites.xyz/tags/databricks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I</title>
-      <link>/posts/building_nocode_lowcode_data_engineering_part1/</link>
+      <link>https://riturajwrites.xyz/posts/nocode_lowcode_part1/</link>
       <pubDate>Sun, 30 Jul 2023 17:01:43 +0530</pubDate>
       
-      <guid>/posts/building_nocode_lowcode_data_engineering_part1/</guid>
-      <description>Let&amp;rsquo;s dive into the world of Low-Code/No Code Data Engineering. But before we do, let&amp;rsquo;s set the stage with a bit of context on the Data Engineering Process.
-Traditional data engineering is a complex and intricate process. It involves creating and maintaining architectures, databases, and processing systems that deal with vast amounts of data. Think of Data Engineers as the architects of data. They build pipelines that transform and transport data into a format that can be used by data scientists.</description>
+      <guid>https://riturajwrites.xyz/posts/nocode_lowcode_part1/</guid>
+      <description>Let&amp;rsquo;s dive into the world of Low-Code/No Code Data Engineering.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://riturajwrites.xyz/posts/nocode_lowcode_part1/feature_robot_working_with_pipelines.png" />
     </item>
     
   </channel>

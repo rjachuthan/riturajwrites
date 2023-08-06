@@ -2,9 +2,8 @@
 title: "Building a Low-Code/No-Code Data Engineering Framework: A First-Hand Experience - Part I"
 date: 2023-07-30T17:01:43+05:30
 description: "Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovation in data engineering has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn't without its challenges."
-image: images/robot_working_with_pipeline.png
-imageAltAttribute: "Image created in Automatic 1111 using RevAnimated Checkpoint"
 disableComments: false
+showHero: true
 tags:
   - Data Engineering
   - Databricks
@@ -250,7 +249,7 @@ writing pipelines and defining validation steps. This significantly reduces the
 cognitive load on the developers and allows them to focus on what they do best -
 engineering data.
 
-# Stay Tuned for the Next Chapter
+## Next Chapter
 
 As we turn the page on this chapter, I'm thrilled to share that our story of
 building the Low-Code/No-Code Data Engineering Framework isn't a tale of
@@ -270,7 +269,7 @@ engineering processes or not!
 So, keep your bookmark ready, sit back, and get ready for the next chapter. What
 are you most excited to learn about in our journey?
 
-# References
+## References
 
 Here are some articles that I found extremely helpful in my journey and I hope
 they will be for you too:

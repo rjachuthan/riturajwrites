@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Digital Garden</title>
-    <link>/pages/</link>
-    <description>Recent content in Pages on Digital Garden</description>
+    <title>Pages on Rituraj&#39;s Digital Garden</title>
+    <link>https://riturajwrites.xyz/pages/</link>
+    <description>Recent content in Pages on Rituraj&#39;s Digital Garden</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Rituraj Achuthan</copyright>
+    <atom:link href="https://riturajwrites.xyz/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>/pages/about/</link>
+      <link>https://riturajwrites.xyz/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pages/about/</guid>
-      <description>About Bear with me as I construct my digital alter ego - it&amp;rsquo;s a masterful work in progress!</description>
+      <guid>https://riturajwrites.xyz/pages/about/</guid>
+      <description>About # Bear with me as I construct my digital alter ego - it&amp;rsquo;s a masterful work in progress!</description>
+      
     </item>
     
   </channel>

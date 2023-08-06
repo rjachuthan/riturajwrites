@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Book Review on Digital Garden</title>
-    <link>/tags/book-review/</link>
-    <description>Recent content in Book Review on Digital Garden</description>
+    <title>Book Review on Rituraj&#39;s Digital Garden</title>
+    <link>https://riturajwrites.xyz/tags/book-review/</link>
+    <description>Recent content in Book Review on Rituraj&#39;s Digital Garden</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2023 23:51:46 +0530</lastBuildDate><atom:link href="/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Rituraj Achuthan</copyright>
+    <lastBuildDate>Wed, 19 Jul 2023 23:51:46 +0530</lastBuildDate><atom:link href="https://riturajwrites.xyz/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Art of Visibility - Lessons from &#39;Show Your Work!&#39;</title>
-      <link>/posts/show_your_work/</link>
+      <link>https://riturajwrites.xyz/posts/show_your_work/</link>
       <pubDate>Wed, 19 Jul 2023 23:51:46 +0530</pubDate>
       
-      <guid>/posts/show_your_work/</guid>
-      <description>Let me get one thing straight - Austin Kleon&amp;rsquo;s &amp;lsquo;Show Your Work!&amp;rsquo; has been rattling around in my brain like a catchy pop song for months now. You know the type - it&amp;rsquo;s 3 AM, you&amp;rsquo;re trying to sleep, and all you can hear is &amp;lsquo;share your work, share your work.&amp;rsquo; It&amp;rsquo;s like a mantra, a chant, a nagging parent reminding you to clean your room. but instead of dirty laundry, it&amp;rsquo;s all about airing our your knowledge and learning for the world to see.</description>
+      <guid>https://riturajwrites.xyz/posts/show_your_work/</guid>
+      <description>Let me get one thing straight - Austin Kleon&amp;rsquo;s &amp;lsquo;Show Your Work!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://riturajwrites.xyz/posts/show_your_work/feature_show_your_work_book.jpg" />
     </item>
     
   </channel>
