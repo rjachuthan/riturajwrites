@@ -1,4 +1,9 @@
 ---
-title: "Blog"
-date: 2023-07-16
+title: "Blogs"
+description: "General posts on this blog"
+
+cascade:
+  showDate: false
+  showAuthor: true
+  invertPagination: true
 ---

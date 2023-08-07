@@ -159,6 +159,28 @@
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
 
             
+            
+            
+  <a href="/posts/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Blogs">
+        Blog
+    </p>
+</a>
+
+
+            
+            
+  <a href="/tags/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Tags">
+        Tags
+    </p>
+</a>
+
+
+            
+            
 
             
 
@@ -289,6 +311,36 @@
                     </li>
 
                     
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Blogs">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/tags/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Tags">
+            Tags
+        </p>
+    </a>
+</li>
+
+
+
+                    
+                    
 
                 </ul>
                 
@@ -327,6 +379,37 @@
     <main id="main-content" class="grow">
       
 
+
+
+
+
+
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/img/simon-maage-unsplash.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
 
  <header>
   
@@ -417,7 +500,7 @@
   <a class="flex flex-wrap article " href="/posts/nocode_lowcode_part1/">
     
         
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/nocode_lowcode_part1/feature_robot_working_with_pipelines.png);"></div>
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/posts/nocode_lowcode_part1/feature_pipelines.jpg);"></div>
         
       <div class=" mt-3 md:mt-0">
       <div class="items-center text-xl font-semibold">
@@ -461,12 +544,10 @@
 
 
 
-
-
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-07-30 17:01:43 &#43;0530 IST">30 July 2023</time><span class="px-2 text-primary-500">&middot;</span><span>2426 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span>
+  <span>2426 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span>
   
 
   
@@ -479,6 +560,11 @@
 
 
 
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Let&rsquo;s dive into the world of Low-Code/No Code Data Engineering. But before we do, let&rsquo;s set the stage with a bit of context on the Data Engineering Process.
+Traditional data engineering is a complex and intricate process.
       </div>
       
     </div>
