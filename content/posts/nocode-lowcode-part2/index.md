@@ -103,6 +103,15 @@ three primary stages: Reading, Transforming, and Writing data.
   for the pipeline representation, it's elegantly captured using dedicated
   classes like `ETL`, `ELT`, and others, ensuring flexibility and adaptability.
 
+Keeping all these things in mind, this is the final Class UML for the entire
+framework. This is how the final Class UML diagram looks for the framework.
+
+![Framework - Class UML Diagram](Framework%20-%20Class%20UML.png)
+
+Obviously, this is not an exact representation of what we are using in our
+organization. But this gives a fair idea of what we have implemented. Looking at
+this, you should have a rough idea about how this can be further extended.
+
 ### Diving Deeper - `SparkDataset` Class
 
 Having explored the foundational layer of our framework's architecture, it's
