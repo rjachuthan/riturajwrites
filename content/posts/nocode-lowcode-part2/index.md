@@ -4,7 +4,6 @@ date: 2023-08-07
 description: "Explore the transformative potential of Low-Code/No-Code Data Engineering in this detailed blog post. Learn about the inception of our unique framework, designed to streamline and democratize the data engineering process. Understand how this innovation in data engineering has enhanced our development workflow, promoting efficiency and collaboration. However, innovation isn't without its challenges."
 disableComments: false
 showHero: true
-draft: true
 tags:
   - Data Engineering
   - Databricks
