@@ -1,9 +1,8 @@
 ---
 title: 'About'
 image: images/writer.jpeg
+date: 2023-12-22
 ---
-
-## About
 
 Hello There. I am a humble data guy, your friendly neighborhood Data Engineer who occasionally dabbles in the world of Data Science.
 
